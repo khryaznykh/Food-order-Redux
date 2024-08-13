@@ -14,7 +14,7 @@ const CartItem = ({cartItem}) => {
             <p>{cartItem.quantity} portion(s)</p>
             <p>$ {price}</p>
             <span onClick={()=> dispatch(removeItemFromCart({cartItemId: cartItem.id}))}>
-                <img className="icon" src="https://img.icons8.com/material-outlined/48/000000/trash--v1.png"/> 
+                <img className="icon" src="https://img.icons8.com/material-outlined/48/000000/trash--v1.png" alt="food"/> 
             </span>
         </div>
     )
